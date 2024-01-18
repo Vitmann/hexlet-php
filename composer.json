@@ -1,0 +1,15 @@
+{
+    "name": "vitaly/hexlet-php",
+    "autoload": {
+        "psr-4": {
+            "Vitaly\\HexletPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vitaly Tarasov",
+            "email": "89269643535@mail.ru"
+        }
+    ],
+    "require": {}
+}
