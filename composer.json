@@ -11,5 +11,7 @@
             "email": "89269643535@mail.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "tightenco/collect": "^9.52"
+    }
 }

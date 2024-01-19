@@ -7,4 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Vitaly\\HexletPhp\\' => array($baseDir . '/src'),
+    'Tightenco\\Collect\\' => array($vendorDir . '/tightenco/collect/src/Collect'),
+    'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
+    'Symfony\\Component\\VarDumper\\' => array($vendorDir . '/symfony/var-dumper'),
 );
