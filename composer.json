@@ -1,9 +1,24 @@
 {
     "name": "vitaly/hexlet-php",
+    "authors": [
+        {
+            "name": "Vitaly Tarasov",
+            "email": "89269643535@mail.ru"
+        }
+    ],
+    "description": "hexlet-php",
+    "license": "MIT",
+    "scripts": {
+        "phpcs": "phpcs",
+        "phpcbf": "phpcbf"
+    },
     "autoload": {
         "psr-4": {
             "Vitaly\\HexletPhp\\": "src/"
-        }
+        },
+        "files": [
+            "src/Runner.php"
+        ]
     },
     "authors": [
         {
@@ -11,5 +26,7 @@
             "email": "89269643535@mail.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "squizlabs/php_codesniffer": "*"
+    }
 }
